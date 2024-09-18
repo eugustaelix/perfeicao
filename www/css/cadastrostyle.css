@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/matter');
+
+
+
+body {
+
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+button {
+    font-family: "Poppins", sans-serif;
+
+}
+
+div {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.muita {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 28%, rgba(0, 140, 226, 1) 61%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.per {
+    color: #009DFF;
+    font-weight: 500;
+}
+
+.header h1 {
+    font-weight: 400;
+}
+
+.footer img {
+    width: 30px;
+    height: 30px;
+}
+
+.names {
+    position: absolute;
+    font-size: 13px;
+    bottom: -6px;
+
+}
+
+.footer {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 412px;
+    height: 70px;
+    background-color: #F8FAFB;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.separador {
+    width: 2px;
+    height: 50px;
+    background-color: #000;
+}
+
+
+.footer-text {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.welcome {
+
+    margin-left: -9%;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 9%;
+
+}
+
+.welcome h1 {
+    color: #009DFF;
+    font-weight: 500;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 352px;
+}
+
+
+form label {
+    font-size: 20px;
+}
+
+
+form input {
+    width: 352px;
+    height: 50px;
+    border: 2px solid black;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+
+.forgot-password {
+    color: #008CE2;
+    font-size: 15px;
+
+    margin-left: 27%;
+
+    text-decoration: none;
+}
+
+.forgot-password:active {
+    color: #003f66;
+    font-size: 15px;
+
+    margin-left: 27%;
+
+    text-decoration: none;
+}
+
+
+.button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 95%;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.acessar:active {
+
+    filter: brightness(50%);
+    border-radius: 10px;
+
+}
+
+input {
+    font-family: 'Poppins';
+    font-size: 14px;
+
+}
+
+input:focus {
+
+    outline: none;
+}
+
+
+.acessar {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to right, #54B5F1, #009DFF);
+    color: white;
+    border: none;
+    font-size: 1rem;
+
+
+    border-radius: 8px;
+}
+
+
+
+.jatenhoconta {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    border-radius: 10px;
+    color: black;
+    margin-top: 3%;
+    font-size: 1rem;
+
+}
+
+.jatenhoconta:active {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(196, 196, 196);
+    border: none;
+    color: black;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.button h1 {
+
+    font-size: 1rem;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.image {
+    width: 60px;
+    height: 44px;
+    background-color: #ECECEC;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image:active {
+
+    filter: brightness(70%);
+}
+
+.image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.logo {
+    position: absolute;
+    top: 3%;
+    left: 80%;
+}
+
+.rodape {
+
+    background-color: #f9fafc;
+    margin-top: 10%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+
+}
+
+
+.center{
+    text-align: center;
+    font-size: 10px; 
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: 'Poppins';
+    -webkit-text-stroke: 0.3px black;
+    margin-top: 2%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
