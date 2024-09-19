@@ -28,7 +28,7 @@ div {
 }
 
 .muita {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 28%, rgba(0, 140, 226, 1) 61%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 140, 226, 1) 40%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -243,8 +243,27 @@ input:focus {
     top: 3%;
     left: 80%;
 }
-
 .rodape {
-    margin-top: 23%;
     background-color: #f9fafc;
+    margin-top: 10%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+}
+
+
+.center{
+    text-align: center;
+    font-size: 10px; 
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: 'Poppins';
+    -webkit-text-stroke: 0.3px black;
+    margin-top: 2%;
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
