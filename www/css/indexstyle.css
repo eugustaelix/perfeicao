@@ -106,6 +106,43 @@
     font-style: italic;
 }
 
+.crimson-text-regular {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.crimson-text-semibold {
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.crimson-text-bold {
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.crimson-text-regular-italic {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.crimson-text-semibold-italic {
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.crimson-text-bold-italic {
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
 .logo {
     position: absolute;
     top: -0.6%;
@@ -248,11 +285,12 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+    font-family: 'Poppins';
 }
 
 .fundo{
     z-index: 0;
-    height: 665px;
+    height: 630px;
     background-color: #fbfcfc;
     width: 100%;
     position: absolute;
@@ -261,7 +299,6 @@
     border-bottom-right-radius: 40px;
     border-bottom-left-radius: 40px;
     box-shadow: 0px 0px 30px rgba(251, 252, 252, 1);
-
 }
 
 
